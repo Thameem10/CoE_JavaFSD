@@ -1,0 +1,12 @@
+<div class="card" style="width: 18rem;">
+    <img src="http://localhost:8090/{{product.image}}" class="card-img-top" alt="{{product.name}}">
+    <div class="card-body">
+        <h5 class="card-title">{{product.name}}</h5>
+        <p class="card-text">
+            <strong>Description:</strong> {{product.description}}<br>
+            <strong>Price:</strong> ${{product.price}}<br>
+            <strong>Category:</strong> {{product.category}}
+        </p>
+        <button class="btn btn-success" (click)="addToCart(product)">Add to Cart</button>
+    </div>
+</div>

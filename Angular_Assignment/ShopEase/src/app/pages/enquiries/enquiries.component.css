@@ -1,0 +1,57 @@
+/* Enquiry Page Styles */
+.media-body {
+    padding: 15px;
+    border: 1px solid #004aad;
+    border-radius: 8px;
+    width: 80%;
+    margin: 10px auto;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+    background: #e3f2fd;
+    color: #003580;
+}
+
+h3 {
+    color: #004aad;
+    text-align: center;
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+}
+
+.alert-dark {
+    background: #004aad;
+    color: white;
+    font-size: 1.1rem;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+select {
+    margin-left: 10px;
+    padding: 8px;
+    border: 1px solid #004aad;
+    border-radius: 5px;
+    font-size: 1rem;
+    background: #f0f8ff;
+    color: #003580;
+}
+
+select:focus {
+    outline: none;
+    border-color: #003580;
+}
+
+p {
+    font-size: 1rem;
+    color: #003580;
+}
+
+strong {
+    color: #004aad;
+}
+
+@media (max-width: 768px) {
+    .media-body {
+        width: 90%;
+    }
+}
